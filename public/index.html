@@ -3,158 +3,325 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>A1 Clean Up | San Diego Cleaning, Maintenance & Event Services</title>
-    <meta name="description" content="A1 Clean Up provides office cleaning, window cleaning, power washing, building maintenance, and event cleanup across San Diego County." />
+    <title>A1 Clean Up | San Diego County Cleaning & Property Support</title>
+    <meta
+      name="description"
+      content="A1 Clean Up provides office cleaning, storefront cleanup, move-in and move-out cleaning, power washing, and event support across San Diego County."
+    />
+    <meta name="theme-color" content="#143536" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="bg-glow"></div>
+    <div class="page-glow"></div>
+    <div class="page-grid"></div>
+
     <header class="site-header">
-      <div class="brand">
+      <a class="brand" href="#top" aria-label="A1 Clean Up home">
         <div class="brand-mark">A1</div>
         <div>
           <p class="brand-name">A1 Clean Up</p>
-          <p class="brand-sub">San Diego County</p>
+          <p class="brand-sub">Serving San Diego County</p>
         </div>
-      </div>
-      <nav class="site-nav">
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
         <a href="#services">Services</a>
+        <a href="#audiences">Who We Help</a>
         <a href="#process">How It Works</a>
-        <a href="#proof">Why A1</a>
+        <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </nav>
+
       <div class="header-actions">
         <a class="ghost" href="tel:+14425991872">Call (442) 599-1872</a>
-        <a class="primary" href="https://quote.a1cleanupservices.com">Get a Fast Quote</a>
+        <a class="primary" href="https://quote.a1cleanupservices.com">Fast Quote</a>
       </div>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-content">
-          <p class="eyebrow">Trusted cleaning & facility support</p>
-          <h1>Fast, reliable cleaning for offices, storefronts, events, and homes in San Diego County.</h1>
-          <p class="lead">A1 Clean Up keeps your spaces clean, safe, and client-ready with on-demand service or recurring plans.</p>
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Cleaning, maintenance, and event support</p>
+          <h1>Keep your property ready for staff, tenants, customers, and guests.</h1>
+          <p class="lead">
+            A1 Clean Up helps offices, storefronts, venues, and homes stay clean with recurring service,
+            one-time cleanup, and quick quote follow-up from a real local team.
+          </p>
+
           <div class="cta-row">
-            <button class="primary" id="open-assistant">Start Instant Quote</button>
+            <button class="primary" id="open-assistant" type="button">Start Instant Quote</button>
             <a class="secondary" href="https://quote.a1cleanupservices.com">Request a Fast Quote</a>
           </div>
-          <div class="trust-row">
-            <div>
-              <span class="trust-value">5am–7pm</span>
-              <span class="trust-label">Service hours</span>
-            </div>
-            <div>
-              <span class="trust-value">Same-week</span>
-              <span class="trust-label">Availability</span>
-            </div>
-            <div>
-              <span class="trust-value">Residential + Commercial</span>
-              <span class="trust-label">Coverage</span>
-            </div>
+
+          <div class="hero-highlights" aria-label="Business highlights">
+            <article class="highlight-card">
+              <strong>5:00am - 7:00pm</strong>
+              <span>Regular service hours</span>
+            </article>
+            <article class="highlight-card">
+              <strong>Residential + Commercial</strong>
+              <span>Flexible job types</span>
+            </article>
+            <article class="highlight-card">
+              <strong>San Diego County</strong>
+              <span>Local coverage</span>
+            </article>
           </div>
         </div>
-        <div class="hero-card">
-          <h2>Instant Quote Assistant</h2>
-          <p>Answer a few quick questions and get a same-day response.</p>
-          <ul class="checklist">
-            <li>Service type & property details</li>
-            <li>Timeline and preferred contact</li>
-            <li>Direct handoff to A1 Clean Up</li>
-          </ul>
-          <button class="primary full" id="open-assistant-secondary">Start Now</button>
-        </div>
+
+        <aside class="hero-panel">
+          <div class="hero-panel-head">
+            <p class="panel-kicker">Need help quickly?</p>
+            <h2>Start online, then let us take it from there.</h2>
+            <p>
+              Use the quote assistant to send service details directly to A1 Clean Up, or contact us by phone
+              or email if you already know the scope.
+            </p>
+          </div>
+
+          <div class="panel-actions">
+            <button class="primary full" id="open-assistant-secondary" type="button">Start Now</button>
+            <a class="secondary full" href="https://quote.a1cleanupservices.com">Open Full Quote Form</a>
+          </div>
+
+          <div class="contact-stack">
+            <a class="contact-tile" href="tel:+14425991872">
+              <span>Phone</span>
+              <strong>(442) 599-1872</strong>
+            </a>
+            <a class="contact-tile" href="mailto:info@a1cleanupservices.com">
+              <span>Email</span>
+              <strong>info@a1cleanupservices.com</strong>
+            </a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="service-marquee">
+        <p>Office cleaning</p>
+        <p>Window cleaning</p>
+        <p>Power washing</p>
+        <p>Building maintenance</p>
+        <p>Event cleanup</p>
+        <p>Move-in / Move-out service</p>
       </section>
 
       <section id="services" class="section">
         <div class="section-header">
-          <h2>Services built for busy properties</h2>
-          <p>Flexible, professional cleaning for the spaces you manage.</p>
+          <p class="section-label">Core Services</p>
+          <h2>Support for the jobs that keep properties running clean.</h2>
+          <p>
+            Choose one service or combine multiple scopes when you need ongoing upkeep, turnover cleaning,
+            exterior refresh work, or event support.
+          </p>
         </div>
+
         <div class="service-grid">
-          <article class="service-card">
-            <h3>Office Cleaning</h3>
-            <p>Daily, weekly, or monthly service to keep your workplace spotless.</p>
+          <article class="service-card accent-card">
+            <div class="card-eyebrow">Recurring</div>
+            <h3>Office & janitorial cleaning</h3>
+            <p>Routine service for workspaces, common areas, restrooms, and customer-facing spaces.</p>
           </article>
+
           <article class="service-card">
-            <h3>Window Cleaning</h3>
-            <p>Interior and exterior window care for offices and storefronts.</p>
+            <div class="card-eyebrow">Glass & curb appeal</div>
+            <h3>Window cleaning</h3>
+            <p>Interior and exterior window service for offices, storefronts, and managed properties.</p>
           </article>
+
           <article class="service-card">
-            <h3>Power Washing</h3>
-            <p>Sidewalks, exteriors, and common areas cleaned safely.</p>
+            <div class="card-eyebrow">Exterior care</div>
+            <h3>Power washing</h3>
+            <p>Refresh sidewalks, building fronts, and outdoor common areas that need a cleaner presentation.</p>
           </article>
+
           <article class="service-card">
-            <h3>Building Maintenance</h3>
-            <p>Restroom checks, common areas, and janitorial coverage.</p>
+            <div class="card-eyebrow">Facilities</div>
+            <h3>Building maintenance support</h3>
+            <p>Help with recurring upkeep needs and day-to-day cleaning support for active properties.</p>
           </article>
+
           <article class="service-card">
-            <h3>Event Cleanup</h3>
-            <p>Pre-event prep and post-event restoration for venues.</p>
+            <div class="card-eyebrow">Before & after events</div>
+            <h3>Event cleanup</h3>
+            <p>Prep and post-event cleanup for venues, gatherings, and temporary high-traffic spaces.</p>
           </article>
+
           <article class="service-card">
-            <h3>Move-In / Move-Out</h3>
-            <p>Turnover cleans for property managers and real estate teams.</p>
+            <div class="card-eyebrow">Turnovers</div>
+            <h3>Move-in / move-out cleaning</h3>
+            <p>Detailed reset work for homes, rental units, and spaces that need to be ready for the next occupant.</p>
           </article>
         </div>
       </section>
 
-      <section id="process" class="section alt">
-        <div class="section-header">
-          <h2>How it works</h2>
-          <p>Quick turnaround with clear next steps.</p>
+      <section id="audiences" class="section split-section">
+        <div class="section-header split-copy">
+          <p class="section-label">Who We Help</p>
+          <h2>Built for busy operators, property teams, and households that need a dependable cleanup partner.</h2>
+          <p>
+            Whether you manage a workplace, prepare a unit turnover, run a storefront, or need help after a
+            big event, A1 Clean Up gives you a clear intake path and a straightforward next step.
+          </p>
         </div>
+
+        <div class="split-panel">
+          <div class="audience-chips" aria-label="Property types served">
+            <span>Office suites</span>
+            <span>Storefronts</span>
+            <span>Residential homes</span>
+            <span>Rental turnovers</span>
+            <span>Event spaces</span>
+            <span>Common areas</span>
+            <span>Sidewalks & exterior zones</span>
+            <span>Property managers</span>
+          </div>
+
+          <div class="coverage-card">
+            <p class="section-label">Service Approach</p>
+            <h3>Simple intake. Clear follow-up. Flexible scheduling.</h3>
+            <ul class="checklist">
+              <li>Start with a quick assistant or a direct quote request.</li>
+              <li>Share the property type, rough size, and timing.</li>
+              <li>Choose one-time help or talk through recurring service.</li>
+              <li>Reach the team by phone or email if you prefer a direct handoff.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section process-section">
+        <div class="section-header">
+          <p class="section-label">How It Works</p>
+          <h2>A faster path from request to scheduled service.</h2>
+          <p>The site is designed to make the first conversation easier, even when the scope is still rough.</p>
+        </div>
+
         <div class="steps">
-          <div class="step-card">
+          <article class="step-card">
             <span class="step-number">01</span>
-            <h3>Tell us what you need</h3>
-            <p>Use the Instant Quote Assistant or request a call.</p>
-          </div>
-          <div class="step-card">
+            <h3>Send the basics</h3>
+            <p>Tell us the service type, location, property details, and when you need help.</p>
+          </article>
+
+          <article class="step-card">
             <span class="step-number">02</span>
-            <h3>We confirm details</h3>
-            <p>We review size, schedule, and scope.</p>
-          </div>
-          <div class="step-card">
+            <h3>We review the scope</h3>
+            <p>We use your intake to understand the job size, schedule, and best next step for the estimate.</p>
+          </article>
+
+          <article class="step-card">
             <span class="step-number">03</span>
-            <h3>We schedule & clean</h3>
-            <p>Fast setup, consistent service, no surprises.</p>
-          </div>
+            <h3>Confirm the plan</h3>
+            <p>We follow up to clarify anything important and align on timing, access, and service expectations.</p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">04</span>
+            <h3>Get on the calendar</h3>
+            <p>Move forward with one-time service or discuss a recurring cleaning schedule for ongoing support.</p>
+          </article>
         </div>
       </section>
 
-      <section id="proof" class="section">
+      <section class="section proof-section">
         <div class="section-header">
-          <h2>Why A1 Clean Up</h2>
-          <p>Reliable teams, clear communication, and fast response times.</p>
+          <p class="section-label">Why A1</p>
+          <h2>Practical details up front, without the friction.</h2>
+          <p>
+            The page answers the questions people ask first: what you clean, how to reach you, and how to send a
+            useful quote request without a long back-and-forth.
+          </p>
         </div>
+
         <div class="proof-grid">
-          <div class="proof-card">
-            <h3>Locally focused</h3>
-            <p>We serve San Diego County with flexible scheduling for businesses and homes.</p>
-          </div>
-          <div class="proof-card">
-            <h3>Responsive service</h3>
-            <p>Same-day replies and consistent follow-through.</p>
-          </div>
-          <div class="proof-card">
-            <h3>Quality control</h3>
-            <p>Detailed checklists and accountability on every job.</p>
-          </div>
+          <article class="proof-card">
+            <h3>Clear service framing</h3>
+            <p>Visitors can quickly see whether the job is a recurring cleaning need, turnover, event, or exterior scope.</p>
+          </article>
+
+          <article class="proof-card">
+            <h3>Multiple contact paths</h3>
+            <p>Quote assistant, full quote form, phone, and email are all available without forcing one path.</p>
+          </article>
+
+          <article class="proof-card">
+            <h3>Lead-ready intake</h3>
+            <p>The assistant collects the details needed for faster quote follow-up, so the next conversation starts with context.</p>
+          </article>
         </div>
       </section>
 
-      <section id="contact" class="cta">
-        <div>
-          <h2>Ready for a fast quote?</h2>
-          <p>Our team responds within one business day.</p>
+      <section id="faq" class="section faq-section">
+        <div class="section-header">
+          <p class="section-label">FAQ</p>
+          <h2>Questions people often have before requesting a quote.</h2>
+          <p>These answers keep the page useful even when someone is still comparing options.</p>
         </div>
-        <div class="cta-actions">
-          <button class="primary" id="open-assistant-footer">Start Instant Quote</button>
-          <a class="secondary" href="https://quote.a1cleanupservices.com">Request a Fast Quote</a>
+
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>Do you handle one-time and recurring cleaning?</h3>
+            <p>Yes. The quote assistant includes both one-time and recurring scheduling options so the team can follow up accordingly.</p>
+          </article>
+
+          <article class="faq-card">
+            <h3>Can I request help for commercial or residential spaces?</h3>
+            <p>Yes. The site is set up for both residential and commercial inquiries, including offices, storefronts, homes, and event spaces.</p>
+          </article>
+
+          <article class="faq-card">
+            <h3>What information should I send for a faster estimate?</h3>
+            <p>Property type, city, rough size, preferred timing, and the best contact method are the most helpful details to include.</p>
+          </article>
+
+          <article class="faq-card">
+            <h3>What if my job does not fit one exact category?</h3>
+            <p>Choose the closest service in the assistant and add extra notes. The intake is designed to handle mixed or custom scopes too.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="cta section">
+        <div class="cta-copy">
+          <p class="section-label">Contact</p>
+          <h2>Ready to send over the job details?</h2>
+          <p>
+            Use the assistant for a guided intake, open the full quote form, or reach out directly during service
+            hours if you want to talk through the scope.
+          </p>
+        </div>
+
+        <div class="cta-panel">
+          <div class="cta-contact-grid">
+            <a class="contact-tile" href="tel:+14425991872">
+              <span>Call</span>
+              <strong>(442) 599-1872</strong>
+            </a>
+            <a class="contact-tile" href="mailto:info@a1cleanupservices.com">
+              <span>Email</span>
+              <strong>info@a1cleanupservices.com</strong>
+            </a>
+            <div class="contact-tile">
+              <span>Hours</span>
+              <strong>5:00am - 7:00pm</strong>
+            </div>
+            <div class="contact-tile">
+              <span>Coverage</span>
+              <strong>San Diego County</strong>
+            </div>
+          </div>
+
+          <div class="cta-actions">
+            <button class="primary" id="open-assistant-footer" type="button">Start Instant Quote</button>
+            <a class="secondary" href="https://quote.a1cleanupservices.com">Request a Fast Quote</a>
+          </div>
         </div>
       </section>
     </main>
@@ -162,43 +329,51 @@
     <footer class="site-footer">
       <div>
         <p class="brand-name">A1 Clean Up</p>
-        <p>Serving San Diego County</p>
+        <p>Cleaning and property support for San Diego County.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
       </div>
       <div>
-        <p><strong>Call</strong> <a href="tel:+14425991872">(442) 599-1872</a></p>
-        <p><strong>Email</strong> <a href="mailto:info@a1cleanupservices.com">info@a1cleanupservices.com</a></p>
-      </div>
-      <div>
-        <p>Hours: 5:00am – 7:00pm</p>
-        <p>License & insured</p>
+        <p><strong>Phone:</strong> <a href="tel:+14425991872">(442) 599-1872</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@a1cleanupservices.com">info@a1cleanupservices.com</a></p>
       </div>
     </footer>
 
-    <button class="assistant-fab" id="assistant-fab">Instant Quote</button>
+    <button class="assistant-fab" id="assistant-fab" type="button">Instant Quote</button>
 
     <div class="assistant-overlay" id="assistant-overlay" aria-hidden="true">
-      <div class="assistant-panel">
+      <div class="assistant-panel" role="dialog" aria-modal="true" aria-labelledby="assistant-title">
         <div class="assistant-header">
           <div>
-            <p class="assistant-title">Instant Quote Assistant</p>
-            <p class="assistant-sub">Answer a few quick questions.</p>
+            <p class="assistant-title" id="assistant-title">Instant Quote Assistant</p>
+            <p class="assistant-sub">A short guided intake for A1 Clean Up.</p>
           </div>
-          <button class="assistant-close" id="assistant-close" aria-label="Close">×</button>
+          <button class="assistant-close" id="assistant-close" aria-label="Close" type="button">×</button>
         </div>
+
         <div class="assistant-body">
           <div class="assistant-progress">
-            <span id="assistant-step">Step 1</span>
-            <div class="assistant-bar"><div id="assistant-bar-fill"></div></div>
+            <span id="assistant-step">Step 1 of 11</span>
+            <div class="assistant-bar" aria-hidden="true">
+              <div id="assistant-bar-fill"></div>
+            </div>
           </div>
+
           <div id="assistant-question" class="assistant-question"></div>
           <div id="assistant-input" class="assistant-input"></div>
           <p id="assistant-hint" class="assistant-hint"></p>
         </div>
+
         <div class="assistant-actions">
-          <button class="ghost" id="assistant-back">Back</button>
-          <button class="primary" id="assistant-next">Next</button>
+          <button class="ghost" id="assistant-back" type="button">Back</button>
+          <button class="primary" id="assistant-next" type="button">Next</button>
         </div>
-        <div class="assistant-status" id="assistant-status"></div>
+
+        <div class="assistant-status" id="assistant-status" aria-live="polite"></div>
       </div>
     </div>
 
