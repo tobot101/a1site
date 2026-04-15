@@ -393,6 +393,7 @@ textarea {
   gap: 12px;
 }
 
+.service-marquee a,
 .service-marquee p {
   margin: 0;
   border-radius: 999px;
@@ -403,6 +404,11 @@ textarea {
   background: rgba(255, 255, 255, 0.55);
   font-weight: 800;
   font-size: 0.92rem;
+}
+
+.service-marquee a:hover,
+.service-marquee a:focus-visible {
+  background: rgba(20, 53, 54, 0.08);
 }
 
 .section-header {
@@ -435,6 +441,10 @@ textarea {
   padding: 24px;
 }
 
+.service-card {
+  display: block;
+}
+
 .service-card h3,
 .proof-card h3,
 .faq-card h3,
@@ -457,6 +467,22 @@ textarea {
 
 .card-eyebrow {
   color: var(--copper);
+}
+
+.card-cta {
+  display: inline-flex;
+  margin-top: 12px;
+  font-weight: 800;
+  color: var(--teal);
+}
+
+.accent-card .card-cta {
+  color: white;
+}
+
+.service-card:hover .card-cta,
+.service-card:focus-visible .card-cta {
+  text-decoration: underline;
 }
 
 .split-section {
@@ -611,6 +637,106 @@ textarea {
 .footer-links a {
   font-weight: 700;
   color: var(--teal);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: var(--teal);
+}
+
+.service-page-main {
+  padding-top: 28px;
+}
+
+.service-hero {
+  padding-top: 24px;
+}
+
+.service-hero h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(2.6rem, 4.8vw, 4.6rem);
+  line-height: 1.06;
+  margin: 0;
+  max-width: 13ch;
+}
+
+.service-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.service-content {
+  display: grid;
+  gap: 20px;
+}
+
+.service-detail-card,
+.service-summary {
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(18px);
+}
+
+.service-detail-card h2,
+.service-summary h2 {
+  margin: 0 0 12px;
+  font-size: 1.45rem;
+}
+
+.service-detail-card p,
+.service-summary p,
+.mini-fact span {
+  color: var(--muted);
+}
+
+.service-sidebar {
+  display: grid;
+  gap: 20px;
+  position: sticky;
+  top: 112px;
+}
+
+.mini-facts,
+.related-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.mini-fact,
+.related-grid a {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(20, 53, 54, 0.08);
+}
+
+.mini-fact strong {
+  display: block;
+  margin-top: 4px;
+}
+
+.related-grid a {
+  font-weight: 800;
+  color: var(--teal);
+}
+
+.related-grid a:hover,
+.related-grid a:focus-visible {
+  background: rgba(20, 53, 54, 0.08);
 }
 
 .assistant-fab {
@@ -875,7 +1001,8 @@ textarea {
 
   .hero,
   .split-section,
-  .cta {
+  .cta,
+  .service-layout {
     grid-template-columns: 1fr;
   }
 
@@ -889,6 +1016,10 @@ textarea {
 
   .process-section .steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-sidebar {
+    position: static;
   }
 }
 
